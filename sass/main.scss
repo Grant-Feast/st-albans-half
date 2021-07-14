@@ -1,8 +1,20 @@
 // Navbar
 
 .logo {
-  height: 90px;
+  height: 50px;
 }
 
-/ Import bootstrap files
+@media(min-width: 768px) {
+  .logo {
+    height: 55px;
+  }
+}
+
+@media(min-width: 1024px) {
+  .logo {
+    height: 90px;
+  }
+}
+
+// Import bootstrap files
 @import '../node_modules/bootstrap/scss/bootstrap';
